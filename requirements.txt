@@ -1,7 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
+pydantic
 soynlp
 sentence-transformers
 faiss-cpu
 numpy
-pydantic
