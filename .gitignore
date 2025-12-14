@@ -1,0 +1,22 @@
+# .gitignore 파일 내용 (추가)
+
+# Node.js 기본
+node_modules
+.env
+dist
+/coverage
+
+# 🚨 [추가] 벡터 DB 파일 및 폴더 (이름이 다를 경우 수정하세요)
+# 예: ChromaDB, Faiss의 저장 폴더
+chroma_data
+vector_db_storage
+*.faiss
+*.index
+
+# 가상 환경 폴더 무시
+venv/
+.venv/
+
+# 파이썬 캐시 파일 무시
+__pycache__/
+*.pyc
